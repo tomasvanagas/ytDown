@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>ytdownloader</id>
+    <name>Yt Downloader</name>
+    <summary>Youtube downloader</summary>
+    <description><![CDATA[Simple and easy youtube downloader.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="tomasvanagas@ymail.com" homepage="https://vanagas.tech">Tomas Vanagas</author>
+    <namespace>YtDownloader</namespace>
+    <category>multimedia</category>
+    <bugs>https://vanagas.tech</bugs>
+    <dependencies>
+        <nextcloud min-version="19" max-version="19"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>YtDown</name>
+            <route>ytdownloader.page.index</route>
+        </navigation>
+    </navigations>
+</info>

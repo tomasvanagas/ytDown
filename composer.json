@@ -1,0 +1,15 @@
+{
+    "name": "Yt Downloader",
+    "description": "Youtube downloader",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Tomas Vanagas"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    }
+}
